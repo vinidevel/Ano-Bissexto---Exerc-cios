@@ -50,14 +50,15 @@ footer{
     }
 
     main{
-        width: 300px;
-        height: 250px;
+        width: 220px;
+        height: 300px;
         margin: 0 auto;
     }
     
-    footer p {
-        text-align: center;
-        margin: 15px 40px 1px 1px;
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
 }
