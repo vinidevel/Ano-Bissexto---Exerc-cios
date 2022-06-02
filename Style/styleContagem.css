@@ -1,0 +1,64 @@
+
+body{
+
+    background-color: blue;
+
+}
+
+header{
+
+    color: white;
+    text-align: center;
+    font-style: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.6em;
+}
+
+main{
+
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.301);
+    
+}
+
+#infoum, #verificar, #res{
+    text-align: center;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: bolder;
+    padding-top: 40px;
+    font-size: 1.2em;
+}
+
+footer{
+
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+}
+
+@media screen and (max-width:480px) {
+
+    header h1 {
+        margin: 1px 50px px 0px;
+        text-align: center;
+        font-size: 1.8em;
+    }
+
+    main{
+        align-items: center;
+        text-align: center;
+        width: 250px;
+        margin: 1px 1px 1px 10px;
+    }
+
+    footer p {
+        text-align: center;
+        margin: 15px 40px 1px 1px;
+    }
+    
+}
